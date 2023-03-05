@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header header{
+
+  background-color: black;
+  height:12vh;
+  color:white;
+  
+  
+    
+}
+.header header span{
+    display:inline-block;
+    margin-top:23px;
+    font-size:30px;
+}
+.header  header nav{
+    float:right;
+    /* color:black; */
+    background-color: black;
+    color:white;
+
+
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+
+}
+li{
+
+    padding:34px;
+    list-style:none;
+    cursor:pointer;
+    
+}
+.header nav ul li:hover{
+    color:green;
+    text-decoration: underline;
+    line-height: 4px;
+
+}
+
